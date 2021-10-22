@@ -45,7 +45,7 @@ h1, h2, h3, p {
 
 .header--section {
     display: grid;
-    grid-template-columns: 1fr 640px;
+    grid-template-columns: 1fr 55%;
     padding: 33px 120px;
     color: white;
     font-size: 64px;
@@ -70,6 +70,8 @@ h1, h2, h3, p {
 .promo--section {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 36px;
 }
 
@@ -86,9 +88,9 @@ h1, h2, h3, p {
 .tinder {
     position: relative;
     display: grid;
-    grid-template-columns: 484px 1fr;
+    grid-template-columns: 50% 1fr;
     margin-top: 65px;
-    padding: 16px 0px 125px 0px;
+    padding: 16px 20px 125px 20px;
 }
 
 .tinder:after {
@@ -131,7 +133,7 @@ h1, h2, h3, p {
 .gallery {
     position: relative;
     margin-top: 89px;
-    padding-bottom: 90px;
+    padding: 10px 20px 90px 20px;
 }
 
 .gallery--tittle {
@@ -163,6 +165,7 @@ h1, h2, h3, p {
 
 .goals {
     margin-top: 102px;
+    padding: 10px 20px;
 }
 
 .goals--tittle {
@@ -226,7 +229,8 @@ h1, h2, h3, p {
 
 .usa--section {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 64px;
 }
 
@@ -264,7 +268,9 @@ h1, h2, h3, p {
 .impressions--section {
     margin-top: 56px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 
 .impressions--subtitle {
@@ -301,6 +307,7 @@ h1, h2, h3, p {
 
 .thanks--section {
     margin-top: 47px;
+    padding: 10px 48px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 172px;
