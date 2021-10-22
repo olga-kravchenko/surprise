@@ -1,0 +1,339 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Oswald", "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FB7598;
+}
+
+.header--section {
+    display: grid;
+    grid-template-columns: 1fr 640px;
+    padding: 33px 120px;
+    color: white;
+    font-size: 64px;
+}
+
+.header--tittle {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.header--subtitle{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.header--date{
+    margin-top: 13px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.promo--section {
+    position: relative;
+    display: flex;
+    margin-top: 36px;
+}
+
+.promo--section:after {
+    content: "";
+    position: absolute;
+    left: 431px;
+    top: 183px;
+    width: 351px;
+    height: 263px;
+    background-image: url("../img/header_hart.png");
+}
+
+.tinder {
+    position: relative;
+    display: grid;
+    grid-template-columns: 484px 1fr;
+    margin-top: 65px;
+    padding: 16px 0px 125px 0px;
+}
+
+.tinder:after {
+    content: "";
+    position: absolute;
+    left: 532px;
+    top: 372px;
+    width: 139px;
+    height: 27px;
+    background-image: url("../img/hurts.png");
+}
+
+.tinder--section {
+    padding-top: 60px;
+}
+
+.tinder--tittle {
+    position: relative;
+    color: #FB7598;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.tinder--tittle::before {
+    content: "";
+    position: absolute;
+    left: 92px;
+    bottom: 72px;
+    width: 52px;
+    height: 60px;
+    background-image: url("../img/tinder.svg");
+}
+
+.tinder--subtitle {
+    margin-top: 14px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.gallery {
+    position: relative;
+    margin-top: 89px;
+    padding-bottom: 90px;
+}
+
+.gallery--tittle {
+    width: 950px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    color: #FB7598;
+}
+
+.gallery--group {
+    position: relative;
+    margin-top: 114px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: space-between;
+}
+
+.gallery--group:after {
+    content: "";
+    position: absolute;
+    left: 532px;
+    top: 649px;
+    width: 139px;
+    height: 27px;
+    background-image: url("../img/hurts.png");
+}
+
+.goals {
+    margin-top: 102px;
+}
+
+.goals--tittle {
+    position: relative;
+    padding-bottom: 209px;
+}
+
+.goals--tittle::after {
+    content: "";
+    position: absolute;
+    left: 387px;
+    top: 168px;
+    width: 124px;
+    height: 124px;
+    background-image: url("../img/house 1.png");
+}
+
+.house {
+    margin-top: 63px;
+    padding-bottom: 161px;
+    display: flex;
+    justify-content: space-between;
+    gap: 123px;
+}
+
+.house--tittle {
+    position: relative;
+    font-weight: bold;
+}
+
+.house--tittle::after {
+    content: "";
+    position: absolute;
+    left: -151px;
+    top: 166px;
+    width: 302px;
+    height: 302px;
+    background-image: url("../img/house 3.png");
+}
+
+.usa {
+    margin-top: 64px;
+}
+
+.usa--tittle {
+    position: relative;
+    width: 468px;
+    padding-top: 167px;
+    color: black;
+}
+
+.usa--tittle::after {
+    content: "";
+    position: absolute;
+    left: 191px;
+    top: 0px;
+    width: 124px;
+    height: 124px;
+    background-image: url("../img/usa1.png");
+}
+
+.usa--section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.goals--subtitle {
+    position: relative;
+    margin-top: 58px;
+    padding-bottom: 131px;
+    color: black;
+}
+
+.goals--subtitle::after {
+    content: "";
+    position: absolute;
+    left: 381px;
+    top: 143px;
+    width: 139px;
+    height: 27px;
+    background-image: url("../img/hurts.png");
+}
+
+.impressions {
+    margin-top: 29px;
+    padding: 35px;
+    background-color: #FEECF1;
+}
+
+.impressions--tittle {
+    text-align: center;
+    color: #FB7598;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.impressions--section {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.impressions--subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+
+.thanks {
+    margin-top: 43px;
+}
+
+.thanks--tittle {
+    position: relative;
+    padding-top: 94px;
+    text-align: center;
+    color: #FB7598;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.thanks--tittle::before {
+    content: "";
+    position: absolute;
+    left: 231px;
+    top: 0px;
+    width: 139px;
+    height: 27px;
+    background-image: url("../img/hurts.png");
+}
+
+.thanks--section {
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 172px;
+    row-gap: 23px;
+}
+
+.thanks--item {
+    position: relative;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 41px;
+}
+
+.thanks--item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 22px;
+    height: 16px;
+    background-image: url("../img/little_hard2.png");
+}
+
+.footer {
+    background-color: #FB7598;
+    margin-top: 50px;
+}
+
+.footer--tittle {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 600px;
+}
